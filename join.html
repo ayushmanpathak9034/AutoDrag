@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Club</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eef0ff;
+        }
+
+        /* Top Navigation */
+        .navbar {
+            background: #31c7b1;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Page heading */
+        .container {
+            max-width: 2000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #000000;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        h2{
+            color: #000000;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .box {
+            padding: 25px;
+            border: 2px solid #3f51ff;
+            border-radius: 10px;
+            background: white;
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+     <!-- Main Content -->
+    <div class="container">
+        <h1>AUTO DRAG - DRONECLUB</h1>
+
+    <!-- Navigation Bar -->
+   <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="events.html">Event</a>
+    <a href="join.html">Join</a>
+</div>
+
+
+    <!-- Main Content -->
+   <div class="form-container">
+        <h2>Join Our Club</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" required>
+
+            <hr>
+
+            <label>Year:</label>
+            <input type="number" required>
+            
+            <hr>
+
+            <label>Email:</label>
+            <input type="email" required> 
+            
+            <hr>
+
+            <label>Department:</label>
+            <select>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>MECH</option>
+                <option>CIVIL</option>
+            </select>
+            
+            <hr>
+
+            <label>Why do you want to join?</label>
+            <textarea rows="4"></textarea> 
+            
+            <hr>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
