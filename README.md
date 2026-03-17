@@ -60,3 +60,4 @@ college-club-website/
 * Form creation in HTML
 * Use of Flexbox for layout design
 * Structuring a real-world website
+* learning CSS styling
